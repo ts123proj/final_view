@@ -8,8 +8,5 @@
 </head>
 <body>
 	hello world
-<script type="text/javascript">
-	docu
-</script>
 </body>
 </html>
