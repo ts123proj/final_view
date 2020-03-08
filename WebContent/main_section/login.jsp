@@ -43,7 +43,7 @@
 	<div id="login">
 		<aside>
 			<figure>
-				<a href="index.html"><img src="img/logo_sticky.png" width="155" height="36" data-retina="true" alt="" class="logo_sticky"></a>
+				<a href="index.jsp"><img src="img/logo_sticky.png" width="155" height="36" data-retina="true" alt="" class="logo_sticky"></a>
 			</figure>
 			  <form>
 				<div class="access_social">
@@ -72,7 +72,7 @@
 					<div class="float-right mt-1"><a id="forgot" href="javascript:void(0);">Forgot Password?</a></div>
 				</div>
 				<a href="#0" class="btn_1 rounded full-width">Login to Panagea</a>
-				<div class="text-center add_top_10">New to Panagea? <strong><a href="register.html">Sign up!</a></strong></div>
+				<div class="text-center add_top_10">New to Panagea? <strong><a href="register.jsp">Sign up!</a></strong></div>
 			</form>
 			<div class="copy">© 2018 Panagea</div>
 		</aside>

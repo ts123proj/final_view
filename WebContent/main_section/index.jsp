@@ -93,11 +93,11 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="img/tour_1.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/tour_1.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>Historic</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.html">Arc Triomphe</a></h3>
+							<h3><a href="tour-detail.jsp">Arc Triomphe</a></h3>
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
 							<span class="price">From <strong>$54</strong> /per person</span>
 						</div>
@@ -112,11 +112,11 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="img/tour_2.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/tour_2.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>Churches</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.html">Notredam</a></h3>
+							<h3><a href="tour-detail.jsp">Notredam</a></h3>
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
 							<span class="price">From <strong>$124</strong> /per person</span>
 						</div>
@@ -131,11 +131,11 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>Historic</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.html">Versailles</a></h3>
+							<h3><a href="tour-detail.jsp">Versailles</a></h3>
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
 							<span class="price">From <strong>$25</strong> /per person</span>
 						</div>
@@ -150,11 +150,11 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>Historic</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.html">Versailles</a></h3>
+							<h3><a href="tour-detail.jsp">Versailles</a></h3>
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
 							<span class="price">From <strong>$25</strong> /per person</span>
 						</div>
@@ -169,11 +169,11 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="img/tour_4.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/tour_4.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>Museum</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.html">Pompidue Museum</a></h3>
+							<h3><a href="tour-detail.jsp">Pompidue Museum</a></h3>
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
 							<span class="price">From <strong>$45</strong> /per person</span>
 						</div>
@@ -188,11 +188,11 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.html"><img src="img/tour_5.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/tour_5.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>Walking</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.html">Tour Eiffel</a></h3>
+							<h3><a href="tour-detail.jsp">Tour Eiffel</a></h3>
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
 							<span class="price">From <strong>$65</strong> /per person</span>
 						</div>
@@ -205,7 +205,7 @@
 				<!-- /item -->
 			</div>
 			<!-- /carousel -->
-			<p class="btn_home_align"><a href="tours-grid-isotope.html" class="btn_1 rounded">View all Tours</a></p>
+			<p class="btn_home_align"><a href="tours-grid-isotope.jsp" class="btn_1 rounded">View all Tours</a></p>
 			<hr class="large">
 		</div>
 		<!-- /container -->
@@ -219,7 +219,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.html" class="grid_item">
+						<a href="hotel-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>8.9</strong></div>
 								<img src="img/hotel_1.jpg" class="img-fluid" alt="">
@@ -232,7 +232,7 @@
 					</div>
 					<!-- /grid_item -->
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.html" class="grid_item">
+						<a href="hotel-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.9</strong></div>
 								<img src="img/hotel_2.jpg" class="img-fluid" alt="">
@@ -245,7 +245,7 @@
 					</div>
 					<!-- /grid_item -->
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.html" class="grid_item">
+						<a href="hotel-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.0</strong></div>
 								<img src="img/hotel_3.jpg" class="img-fluid" alt="">
@@ -258,7 +258,7 @@
 					</div>
 					<!-- /grid_item -->
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.html" class="grid_item">
+						<a href="hotel-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>8.9</strong></div>
 								<img src="img/hotel_4.jpg" class="img-fluid" alt="">
@@ -272,7 +272,7 @@
 					<!-- /grid_item -->
 				</div>
 				<!-- /row -->
-				<a href="hotels-grid-isotope.html"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
+				<a href="hotels-grid-isotope.jsp"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
 			</section>
 			<!-- /section -->
 			
@@ -284,7 +284,7 @@
 				</div>
 				<div class="row">
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
+						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>8.5</strong></div>
 								<img src="img/restaurant_1.jpg" class="img-fluid" alt="">
@@ -296,7 +296,7 @@
 					</div>
 					<!-- /grid_item -->
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
+						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.9</strong></div>
 								<img src="img/restaurant_2.jpg" class="img-fluid" alt="">
@@ -308,7 +308,7 @@
 					</div>
 					<!-- /grid_item -->
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
+						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.5</strong></div>
 								<img src="img/restaurant_3.jpg" class="img-fluid" alt="">
@@ -320,7 +320,7 @@
 					</div>
 					<!-- /grid_item -->
 					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="restaurant-detail.html" class="grid_item">
+						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>9.0</strong></div>
 								<img src="img/restaurant_4.jpg" class="img-fluid" alt="">
@@ -333,7 +333,7 @@
 					<!-- /grid_item -->
 				</div>
 				<!-- /row -->
-				<a href="restaurants-grid-isotope.html"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
+				<a href="restaurants-grid-isotope.jsp"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
 			</section>
 			<!-- /section -->
 
@@ -343,7 +343,7 @@
 						<small>Adventure</small>
 						<h3>Your Perfect<br>Advenure Experience</h3>
 						<p>Activities and accommodations</p>
-						<a href="adventure.html" class="btn_1">Read more</a>
+						<a href="adventure.jsp" class="btn_1">Read more</a>
 					</div>
 				</div>
 				<!-- /wrapper -->
@@ -419,7 +419,7 @@
 					<!-- /box_news -->
 				</div>
 				<!-- /row -->
-				<p class="btn_home_align"><a href="blog.html" class="btn_1 rounded">View all news</a></p>
+				<p class="btn_home_align"><a href="blog.jsp" class="btn_1 rounded">View all news</a></p>
 			</div>
 			<!-- /container -->
 		</div>
@@ -477,7 +477,7 @@
 				</div>
 				<div class="text-center"><input type="submit" value="Log In" class="btn_1 full-width"></div>
 				<div class="text-center">
-					Don’t have an account? <a href="register.html">Sign up</a>
+					Don’t have an account? <a href="register.jsp">Sign up</a>
 				</div>
 				<div id="forgot_pw">
 					<div class="form-group">

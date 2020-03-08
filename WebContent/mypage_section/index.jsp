@@ -57,7 +57,7 @@
               </div>
               <div class="mr-5"><h5>26 New Messages!</h5></div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="messages.html">
+            <a class="card-footer text-white clearfix small z-1" href="messages.jsp">
               <span class="float-left">View Details</span>
               <span class="float-right">
                 <i class="fa fa-angle-right"></i>
@@ -73,7 +73,7 @@
               </div>
 				<div class="mr-5"><h5>11 New Reviews!</h5></div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="reviews.html">
+            <a class="card-footer text-white clearfix small z-1" href="reviews.jsp">
               <span class="float-left">View Details</span>
               <span class="float-right">
                 <i class="fa fa-angle-right"></i>
@@ -89,7 +89,7 @@
               </div>
               <div class="mr-5"><h5>10 New Bookings!</h5></div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="bookings.html">
+            <a class="card-footer text-white clearfix small z-1" href="bookings.jsp">
               <span class="float-left">View Details</span>
               <span class="float-right">
                 <i class="fa fa-angle-right"></i>
@@ -105,7 +105,7 @@
               </div>
               <div class="mr-5"><h5>10 New Bookmarks!</h5></div>
             </div>
-            <a class="card-footer text-white clearfix small z-1" href="bookmarks.html">
+            <a class="card-footer text-white clearfix small z-1" href="bookmarks.jsp">
               <span class="float-left">View Details</span>
               <span class="float-right">
                 <i class="fa fa-angle-right"></i>
@@ -142,7 +142,7 @@
           <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.html">Logout</a>
+            <a class="btn btn-primary" href="login.jsp">Logout</a>
           </div>
         </div>
       </div>

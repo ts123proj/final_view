@@ -43,7 +43,7 @@
 	<div id="login">
 		<aside>
 			<figure>
-				<a href="index.html"><img src="img/logo_sticky.png" width="155" height="36" data-retina="true" alt="" class="logo_sticky"></a>
+				<a href="index.jsp"><img src="img/logo_sticky.png" width="155" height="36" data-retina="true" alt="" class="logo_sticky"></a>
 			</figure>
 			<form autocomplete="off">
 				<div class="form-group">
@@ -73,7 +73,7 @@
 				</div>
 				<div id="pass-info" class="clearfix"></div>
 				<a href="#0" class="btn_1 rounded full-width add_top_30">Register Now!</a>
-				<div class="text-center add_top_10">Already have an acccount? <strong><a href="login.html">Sign In</a></strong></div>
+				<div class="text-center add_top_10">Already have an acccount? <strong><a href="login.jsp">Sign In</a></strong></div>
 			</form>
 			<div class="copy">© 2018 Panagea</div>
 		</aside>

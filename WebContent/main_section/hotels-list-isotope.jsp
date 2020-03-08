@@ -38,15 +38,15 @@
 	<header class="header menu_fixed">
 		<div id="preloader"><div data-loader="circle-side"></div></div><!-- /Page Preload -->
 		<div id="logo">
-			<a href="index.html">
+			<a href="index.jsp">
 				<img src="img/logo.svg" width="150" height="36" alt="" class="logo_normal">
 				<img src="img/logo_sticky.svg" width="150" height="36" alt="" class="logo_sticky">
 			</a>
 		</div>
 		<ul id="top_menu">
-			<li><a href="cart-1.html" class="cart-menu-btn" title="Cart"><strong>4</strong></a></li>
+			<li><a href="cart-1.jsp" class="cart-menu-btn" title="Cart"><strong>4</strong></a></li>
 			<li><a href="#sign-in-dialog" id="sign-in" class="login" title="Sign In">Sign In</a></li>
-			<li><a href="wishlist.html" class="wishlist_bt_top" title="Your wishlist">Your wishlist</a></li>
+			<li><a href="wishlist.jsp" class="wishlist_bt_top" title="Your wishlist">Your wishlist</a></li>
 		</ul>
 		<!-- /top_menu -->
 		<a href="#menu" class="btn_mobile">
@@ -60,15 +60,15 @@
 			<ul>
 				<li><span><a href="#0">Home</a></span>
 					<ul>
-						<li><a href="index.html">Home Default</a></li>
-						<li><a href="index-2.html">Home Slider</a></li>
-						<li><a href="index-3.html">Home Video BG</a></li>
-						<li><a href="index-4.html">Home Layer Slider</a></li>
-						<li><a href="index-5.html">Home Search 2</a></li>
-						<li><a href="index-6.html">Home GDPR (EU law)</a></li>
-                        <li><a href="index-7.html">Home Search 3</a></li>
-                        <li><a href="index-8.html">Address Autocomplete</a></li>
-                        <li><a href="index-9.html">Home AirBnb</a></li>
+						<li><a href="index.jsp">Home Default</a></li>
+						<li><a href="index-2.jsp">Home Slider</a></li>
+						<li><a href="index-3.jsp">Home Video BG</a></li>
+						<li><a href="index-4.jsp">Home Layer Slider</a></li>
+						<li><a href="index-5.jsp">Home Search 2</a></li>
+						<li><a href="index-6.jsp">Home GDPR (EU law)</a></li>
+                        <li><a href="index-7.jsp">Home Search 3</a></li>
+                        <li><a href="index-8.jsp">Address Autocomplete</a></li>
+                        <li><a href="index-9.jsp">Home AirBnb</a></li>
 					</ul>
 				</li>
 				<li><span><a href="#0">Tours</a></span>
@@ -76,36 +76,36 @@
 						<li>
 							<span><a href="#0">Tours Grid</a></span>
 							<ul>
-								<li><a href="tours-grid-isotope.html">Tours Grid Isotope</a></li>
-								<li><a href="tours-grid-sidebar.html">Tours Grid Sidebar</a></li>
-								<li><a href="tours-grid-sidebar-2.html">Tours Grid Sidebar 2</a></li>
-								<li><a href="tours-grid.html">Tours Grid Simple</a></li>
+								<li><a href="tours-grid-isotope.jsp">Tours Grid Isotope</a></li>
+								<li><a href="tours-grid-sidebar.jsp">Tours Grid Sidebar</a></li>
+								<li><a href="tours-grid-sidebar-2.jsp">Tours Grid Sidebar 2</a></li>
+								<li><a href="tours-grid.jsp">Tours Grid Simple</a></li>
 							</ul>
 						</li>
 						<li>
 							<span><a href="#0">Tours List</a></span>
 							<ul>
-								<li><a href="tours-list-isotope.html">Tours List Isotope</a></li>
-								<li><a href="tours-list-sidebar.html">Tours List Sidebar</a></li>
-								<li><a href="tours-list-sidebar-2.html">Tours List Sidebar 2</a></li>
-								<li><a href="tours-list.html">Tours List Simple</a></li>
+								<li><a href="tours-list-isotope.jsp">Tours List Isotope</a></li>
+								<li><a href="tours-list-sidebar.jsp">Tours List Sidebar</a></li>
+								<li><a href="tours-list-sidebar-2.jsp">Tours List Sidebar 2</a></li>
+								<li><a href="tours-list.jsp">Tours List Simple</a></li>
 							</ul>
 						</li>
-						<li><a href="tours-half-screen-map.html">Tours Half Screen Map</a></li>
-						<li><a href="tour-detail.html">Tour Detail</a></li>
+						<li><a href="tours-half-screen-map.jsp">Tours Half Screen Map</a></li>
+						<li><a href="tour-detail.jsp">Tour Detail</a></li>
 						<li>
 							<span><a href="#0">Open Street Map</a></span>
 							<ul>
-								<li><a href="tours-half-screen-map-leaflet.html">Tours Half Screen Map</a></li>
-								<li><a href="tours-list-isotope-leaflet.html">Tours Grid Isotope</a></li>
-								<li><a href="tours-list-sidebar-leaflet.html">Tours Grid Sidebar</a></li>
-								<li><a href="tours-list-sidebar-2-leaflet.html">Tours Grid Sidebar 2</a></li>
-								<li><a href="tours-list-leaflet.html">Tours Grid Simple</a></li>
-								<li><a href="tours-list-isotope-leaflet.html">Tours List Isotope</a></li>
-								<li><a href="tours-list-sidebar-leaflet.html">Tours List Sidebar</a></li>
-								<li><a href="tours-list-sidebar-2-leaflet.html">Tours List Sidebar 2</a></li>
-								<li><a href="tours-list-leaflet.html">Tours List Simple</a></li>
-								<li><a href="tour-detail-leaflet.html">Tour Detail</a></li>
+								<li><a href="tours-half-screen-map-leaflet.jsp">Tours Half Screen Map</a></li>
+								<li><a href="tours-list-isotope-leaflet.jsp">Tours Grid Isotope</a></li>
+								<li><a href="tours-list-sidebar-leaflet.jsp">Tours Grid Sidebar</a></li>
+								<li><a href="tours-list-sidebar-2-leaflet.jsp">Tours Grid Sidebar 2</a></li>
+								<li><a href="tours-list-leaflet.jsp">Tours Grid Simple</a></li>
+								<li><a href="tours-list-isotope-leaflet.jsp">Tours List Isotope</a></li>
+								<li><a href="tours-list-sidebar-leaflet.jsp">Tours List Sidebar</a></li>
+								<li><a href="tours-list-sidebar-2-leaflet.jsp">Tours List Sidebar 2</a></li>
+								<li><a href="tours-list-leaflet.jsp">Tours List Simple</a></li>
+								<li><a href="tour-detail-leaflet.jsp">Tour Detail</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -115,23 +115,23 @@
 						<li>
 							<span><a href="#0">Hotel Grid</a></span>
 							<ul>
-								<li><a href="hotels-grid-isotope.html">Hotel Grid Isotope</a></li>
-								<li><a href="hotels-grid-sidebar.html">Hotel Grid Sidebar</a></li>
-								<li><a href="hotels-grid-sidebar-2.html">Hotel Grid Sidebar 2</a></li>
-								<li><a href="hotels-grid.html">Hotel Grid Simple</a></li>
+								<li><a href="hotels-grid-isotope.jsp">Hotel Grid Isotope</a></li>
+								<li><a href="hotels-grid-sidebar.jsp">Hotel Grid Sidebar</a></li>
+								<li><a href="hotels-grid-sidebar-2.jsp">Hotel Grid Sidebar 2</a></li>
+								<li><a href="hotels-grid.jsp">Hotel Grid Simple</a></li>
 							</ul>
 						</li>
 						<li>
 							<span><a href="#0">Hotel List</a></span>
 							<ul>
-								<li><a href="hotels-list-isotope.html">Hotel List Isotope</a></li>
-								<li><a href="hotels-list-sidebar.html">Hotel List Sidebar</a></li>
-								<li><a href="hotels-list-sidebar-2.html">Hotel List Sidebar 2</a></li>
-								<li><a href="hotels-list.html">Hotel List Simple</a></li>
+								<li><a href="hotels-list-isotope.jsp">Hotel List Isotope</a></li>
+								<li><a href="hotels-list-sidebar.jsp">Hotel List Sidebar</a></li>
+								<li><a href="hotels-list-sidebar-2.jsp">Hotel List Sidebar 2</a></li>
+								<li><a href="hotels-list.jsp">Hotel List Simple</a></li>
 							</ul>
 						</li>
-						<li><a href="hotels-half-screen-map.html">Hotel Half Screen Map</a></li>
-						<li><a href="hotel-detail.html">Hotel Detail</a></li>
+						<li><a href="hotels-half-screen-map.jsp">Hotel Half Screen Map</a></li>
+						<li><a href="hotel-detail.jsp">Hotel Detail</a></li>
 					</ul>
 				</li>
 				<li><span><a href="#0">Eat &amp; Drink</a></span>
@@ -139,55 +139,55 @@
 						<li>
 							<span><a href="#0">Restaurant Grid</a></span>
 							<ul>
-								<li><a href="restaurants-grid-isotope.html">Restaurant Grid Isotope</a></li>
-								<li><a href="restaurants-grid-sidebar.html">Restaurant Grid Sidebar</a></li>
-								<li><a href="restaurants-grid-sidebar-2.html">Restaurant Grid Sidebar 2</a></li>
-								<li><a href="restaurants-grid.html">Restaurant Grid simple</a></li>
+								<li><a href="restaurants-grid-isotope.jsp">Restaurant Grid Isotope</a></li>
+								<li><a href="restaurants-grid-sidebar.jsp">Restaurant Grid Sidebar</a></li>
+								<li><a href="restaurants-grid-sidebar-2.jsp">Restaurant Grid Sidebar 2</a></li>
+								<li><a href="restaurants-grid.jsp">Restaurant Grid simple</a></li>
 							</ul>
 						</li>
 						<li>
 							<span><a href="#0">Restaurant List</a></span>
 							<ul>
-								<li><a href="restaurants-list-isotope.html">Restaurant List Isotope</a></li>
-								<li><a href="restaurants-list-sidebar.html">Restaurant List Sidebar</a></li>
-								<li><a href="restaurants-list-sidebar-2.html">Restaurant List Sidebar 2</a></li>
-								<li><a href="restaurants-list.html">Restaurant List Simple</a></li>
+								<li><a href="restaurants-list-isotope.jsp">Restaurant List Isotope</a></li>
+								<li><a href="restaurants-list-sidebar.jsp">Restaurant List Sidebar</a></li>
+								<li><a href="restaurants-list-sidebar-2.jsp">Restaurant List Sidebar 2</a></li>
+								<li><a href="restaurants-list.jsp">Restaurant List Simple</a></li>
 							</ul>
 						</li>
-						<li><a href="restaurants-half-screen-map.html">Half Screen Map</a></li>
-						<li><a href="restaurant-detail.html">Restaurant Detail</a></li>
+						<li><a href="restaurants-half-screen-map.jsp">Half Screen Map</a></li>
+						<li><a href="restaurant-detail.jsp">Restaurant Detail</a></li>
 					</ul>
 				</li>
-				<li><span><a href="adventure.html">Adventure</a></span></li>
+				<li><span><a href="adventure.jsp">Adventure</a></span></li>
 				<li><span><a href="#0">Pages</a></span>
 					<ul>
-						<li><a href="about.html">About</a></li>
-						<li><a href="media-gallery.html">Media gallery</a></li>
-						<li><a href="help.html">Help Section</a></li>
-						<li><a href="faq.html">Faq Section</a></li>
-						<li><a href="wishlist.html">Wishlist page</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="blog.html">Blog</a></li>
+						<li><a href="about.jsp">About</a></li>
+						<li><a href="media-gallery.jsp">Media gallery</a></li>
+						<li><a href="help.jsp">Help Section</a></li>
+						<li><a href="faq.jsp">Faq Section</a></li>
+						<li><a href="wishlist.jsp">Wishlist page</a></li>
+						<li><a href="contacts.jsp">Contacts</a></li>
+						<li><a href="login.jsp">Login</a></li>
+						<li><a href="register.jsp">Register</a></li>
+						<li><a href="blog.jsp">Blog</a></li>
 					</ul>
 				</li>
 				<li><span><a href="#0">Extra</a></span>
 					<ul>
-                    	<li><a href="menu-options.html">Menu Position Options</a></li>
-                    	<li><a href="tour-detail-singlemonth-datepicker.html">Single month Datepicker</a></li>
-						<li><a href="404.html">404 Error page</a></li>
-						<li><a href="cart-1.html">Cart page 1</a></li>
-						<li><a href="cart-2.html">Cart page 2</a></li>
-						<li><a href="cart-3.html">Cart page 3</a></li>
-						<li><a href="pricing-tables.html">Responsive pricing tables</a></li>
-						<li><a href="coming_soon/index.html">Coming soon</a></li>
-						<li><a href="invoice.html">Invoice</a></li>
-						<li><a href="icon-pack-1.html">Icon pack 1</a></li>
-						<li><a href="icon-pack-2.html">Icon pack 2</a></li>
-						<li><a href="icon-pack-3.html">Icon pack 3</a></li>
-						<li><a href="icon-pack-4.html">Icon pack 4</a></li>
-                        <li><a href="hamburgers.html">Animated Hamburgers</a></li>
+                    	<li><a href="menu-options.jsp">Menu Position Options</a></li>
+                    	<li><a href="tour-detail-singlemonth-datepicker.jsp">Single month Datepicker</a></li>
+						<li><a href="404.jsp">404 Error page</a></li>
+						<li><a href="cart-1.jsp">Cart page 1</a></li>
+						<li><a href="cart-2.jsp">Cart page 2</a></li>
+						<li><a href="cart-3.jsp">Cart page 3</a></li>
+						<li><a href="pricing-tables.jsp">Responsive pricing tables</a></li>
+						<li><a href="coming_soon/index.jsp">Coming soon</a></li>
+						<li><a href="invoice.jsp">Invoice</a></li>
+						<li><a href="icon-pack-1.jsp">Icon pack 1</a></li>
+						<li><a href="icon-pack-2.jsp">Icon pack 2</a></li>
+						<li><a href="icon-pack-3.jsp">Icon pack 3</a></li>
+						<li><a href="icon-pack-4.jsp">Icon pack 4</a></li>
+                        <li><a href="hamburgers.jsp">Animated Hamburgers</a></li>
 					</ul>
 				</li>
 				<li><span><a href="#0">Buy template</a></span></li>
@@ -223,7 +223,7 @@
 					</li>
 					<li>
 						<div class="layout_view">
-							<a href="hotels-grid-isotope.html"><i class="icon-th"></i></a>
+							<a href="hotels-grid-isotope.jsp"><i class="icon-th"></i></a>
 							<a href="#0" class="active"><i class="icon-th-list"></i></a>
 						</div>
 					</li>
@@ -278,14 +278,14 @@
 					<div class="col-lg-5">
 						<figure>
 							<small>Parirs Centre</small>
-							<a href="hotel-detail.html"><img src="img/hotel_1.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="hotel-detail.jsp"><img src="img/hotel_1.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 						</figure>
 					</div>
 					<div class="col-lg-7">
 						<div class="wrapper">
 							<a href="#0" class="wish_bt"></a>
 							<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-							<h3><a href="hotel-detail.html">Park Hyatt Hotel</a></h3>
+							<h3><a href="hotel-detail.jsp">Park Hyatt Hotel</a></h3>
 							<p>Dicam diceret ut ius, no epicuri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore percipitur definitiones ex, nihil utinam recusabo mel no.</p>
 							<span class="price">From <strong>$54</strong> /per person</span>
 						</div>
@@ -302,14 +302,14 @@
 					<div class="col-lg-5">
 						<figure>
 							<small>Parirs Centre</small>
-							<a href="tour-detail.html"><img src="img/hotel_2.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/hotel_2.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 						</figure>
 					</div>
 					<div class="col-lg-7">
 						<div class="wrapper">
 							<a href="#0" class="wish_bt"></a>
 							<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-							<h3><a href="hotel-detail.html">Mariott Hotel</a></h3>
+							<h3><a href="hotel-detail.jsp">Mariott Hotel</a></h3>
 							<p>Dicam diceret ut ius, no epicuri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore percipitur definitiones ex, nihil utinam recusabo mel no.</p>
 							<span class="price">From <strong>$124</strong> /per person</span>
 						</div>
@@ -326,14 +326,14 @@
 					<div class="col-lg-5">
 						<figure>
 							<small>Parirs Centre</small>
-							<a href="tour-detail.html"><img src="img/hotel_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/hotel_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 						</figure>
 					</div>
 					<div class="col-lg-7">
 						<div class="wrapper">
 							<a href="#0" class="wish_bt"></a>
 							<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-							<h3><a href="hotel-detail.html">Lumiere Hotel</a></h3>
+							<h3><a href="hotel-detail.jsp">Lumiere Hotel</a></h3>
 							<p>Dicam diceret ut ius, no epicuri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore percipitur definitiones ex, nihil utinam recusabo mel no.</p>
 							<span class="price">From <strong>$45</strong> /per person</span>
 						</div>
@@ -350,14 +350,14 @@
 					<div class="col-lg-5">
 						<figure>
 							<small>Parirs Centre</small>
-							<a href="tour-detail.html"><img src="img/hotel_4.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/hotel_4.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 						</figure>
 					</div>
 					<div class="col-lg-7">
 						<div class="wrapper">
 							<a href="#0" class="wish_bt"></a>
 							<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-							<h3><a href="hotel-detail.html">Louvre Hotel</a></h3>
+							<h3><a href="hotel-detail.jsp">Louvre Hotel</a></h3>
 							<p>Dicam diceret ut ius, no epicuri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore percipitur definitiones ex, nihil utinam recusabo mel no.</p>
 							<span class="price">From <strong>$25</strong> /per person</span>
 						</div>
@@ -374,14 +374,14 @@
 					<div class="col-lg-5">
 						<figure>
 							<small>Parirs Centre</small>
-							<a href="tour-detail.html"><img src="img/hotel_5.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="img/hotel_5.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 						</figure>
 					</div>
 					<div class="col-lg-7">
 						<div class="wrapper">
 							<a href="#0" class="wish_bt"></a>
 							<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-							<h3><a href="hotel-detail.html">Concorde Hotel</a></h3>
+							<h3><a href="hotel-detail.jsp">Concorde Hotel</a></h3>
 							<p>Dicam diceret ut ius, no epicuri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore percipitur definitiones ex, nihil utinam recusabo mel no.</p>
 							<span class="price">From <strong>$65</strong> /per person</span>
 						</div>
@@ -453,11 +453,11 @@
 				<div class="col-lg-3 col-md-6 ml-lg-auto">
 					<h5>Useful links</h5>
 					<ul class="links">
-						<li><a href="about.html">About</a></li>
-						<li><a href="login.html">Login</a></li>
-						<li><a href="register.html">Register</a></li>
-						<li><a href="blog.html">News &amp; Events</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
+						<li><a href="about.jsp">About</a></li>
+						<li><a href="login.jsp">Login</a></li>
+						<li><a href="register.jsp">Register</a></li>
+						<li><a href="blog.jsp">News &amp; Events</a></li>
+						<li><a href="contacts.jsp">Contacts</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -549,7 +549,7 @@
 				</div>
 				<div class="text-center"><input type="submit" value="Log In" class="btn_1 full-width"></div>
 				<div class="text-center">
-					Don’t have an account? <a href="register.html">Sign up</a>
+					Don’t have an account? <a href="register.jsp">Sign up</a>
 				</div>
 				<div id="forgot_pw">
 					<div class="form-group">
