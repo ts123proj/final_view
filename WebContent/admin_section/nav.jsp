@@ -9,180 +9,96 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+      	<%-- 관리자 홈 --%>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="index.jsp">
             <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Dashboard</span>
+            <span class="nav-link-text">관리자 홈</span>
           </a>
         </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
-          <a class="nav-link" href="messages.jsp">
-            <i class="fa fa-fw fa-envelope-open"></i>
-            <span class="nav-link-text">Messages</span>
-          </a>
-        </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Bookings">
-          <a class="nav-link" href="bookings.jsp">
-            <i class="fa fa-fw fa-calendar-check-o"></i>
-            <span class="nav-link-text">Bookings <span class="badge badge-pill badge-primary">6 New</span></span>
-          </a>
-        </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="My listings">
-          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMylistings" data-parent="#mylistings">
+        
+        <%-- 매출 관리--%>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="sales">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseSales" data-parent="#mylistings">
             <i class="fa fa-fw fa-list"></i>
-            <span class="nav-link-text">My listings</span>
+            <span class="nav-link-text">매출 관리</span>
           </a>
-          <ul class="sidenav-second-level collapse" id="collapseMylistings">
+          <ul class="sidenav-second-level collapse" id="collapseSales">
             <li>
-              <a href="listings.jsp">Pending <span class="badge badge-pill badge-primary">6</span></a>
+              <a href="#">Pending <span class="badge badge-pill badge-primary">el${el }</span></a>
             </li>
 			<li>
-              <a href="listings.jsp">Active <span class="badge badge-pill badge-success">6</span></a>
+              <a href="#">Active <span class="badge badge-pill badge-success">el${el }</span></a>
             </li>
 			<li>
-              <a href="listings.jsp">Expired <span class="badge badge-pill badge-danger">6</span></a>
+              <a href="#">Expired <span class="badge badge-pill badge-danger">el${el }</span></a>
             </li>
           </ul>
         </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Reviews">
-          <a class="nav-link" href="reviews.jsp">
-            <i class="fa fa-fw fa-star"></i>
-            <span class="nav-link-text">Reviews</span>
-          </a>
-        </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bookmarks">
-          <a class="nav-link" href="bookmarks.jsp">
-            <i class="fa fa-fw fa-heart"></i>
-            <span class="nav-link-text">Bookmarks</span>
-          </a>
-        </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Add listing">
-          <a class="nav-link" href="add-listing.jsp">
-            <i class="fa fa-fw fa-plus-circle"></i>
-            <span class="nav-link-text">Add listing</span>
-          </a>
-        </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="My profile">
-          <a class="nav-link" href="user-profile.jsp">
+        
+        <%-- 회원 관리--%>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="member">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMember" data-parent="#mylistings">
             <i class="fa fa-fw fa-user"></i>
-            <span class="nav-link-text">My Profile</span>
+            <span class="nav-link-text">회원 관리</span>
           </a>
-        </li>
-		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
-          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#Components">
-            <i class="fa fa-fw fa-gear"></i>
-            <span class="nav-link-text">Components</span>
-          </a>
-          <ul class="sidenav-second-level collapse" id="collapseComponents">
+          <ul class="sidenav-second-level collapse" id="collapseMember">
             <li>
-              <a href="charts.jsp">Charts</a>
+              <a href="#">회원 정보 <span class="badge badge-pill badge-primary">el${el }</span></a>
             </li>
 			<li>
-              <a href="tables.jsp">Tables</a>
+              <a href="#">호스팅 정보 <span class="badge badge-pill badge-success">el${el }</span></a>
+            </li>
+			<li>
+              <a href="#">공지 발송 <span class="badge badge-pill badge-danger">el${el }</span></a>
             </li>
           </ul>
         </li>
-      </ul>
-      <ul class="navbar-nav sidenav-toggler">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="sidenavToggler">
-            <i class="fa fa-fw fa-angle-left"></i>
+        
+        <%-- 신고 관리--%>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="accuse">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseAccuse" data-parent="#mylistings">
+            <i class="fa fa-fw fa-user"></i>
+            <span class="nav-link-text">신고 관리</span>
           </a>
-        </li>
+          <ul class="sidenav-second-level collapse" id="collapseAccuse">
+            <li>
+              <a href="#">회원 신고 <span class="badge badge-pill badge-primary">el${el }</span></a>
+            </li>
+			<li>
+              <a href="#">댓글 삭제 요청 <span class="badge badge-pill badge-success">el${el }</span></a>
+            </li>
+          </ul>
+         </li>
+         
+         <%-- 기타 관리--%>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="etc">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseEtc" data-parent="#mylistings">
+            <i class="fa fa-fw fa-gear"></i>
+            <span class="nav-link-text">기타 관리</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="collapseEtc">
+            <li>
+              <a href="#">약관 관리 <span class="badge badge-pill badge-primary">el${el }</span></a>
+            </li>
+			<li>
+              <a href="#">도움말 관리 <span class="badge badge-pill badge-success">el${el }</span></a>
+            </li>
+            <li>
+              <a href="#">광고메일발송 <span class="badge badge-pill badge-success">el${el }</span></a>
+            </li>
+            <li>
+              <a href="#">SNS 관리 <span class="badge badge-pill badge-success">el${el }</span></a>
+            </li>
+          </ul>
+         </li>
       </ul>
+      <%-- 홈페이지로 이동 --%>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mr-lg-2" id="messagesDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-fw fa-envelope"></i>
-            <span class="d-lg-none">Messages
-              <span class="badge badge-pill badge-primary">12 New</span>
-            </span>
-            <span class="indicator text-primary d-none d-lg-block">
-              <i class="fa fa-fw fa-circle"></i>
-            </span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="messagesDropdown">
-            <h6 class="dropdown-header">New Messages:</h6>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <strong>David Miller</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">Hey there! This new version of SB Admin is pretty awesome! These messages clip off when they reach the end of the box so they don't overflow over to the sides!</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <strong>Jane Smith</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">I was wondering if you could meet for an appointment at 3:00 instead of 4:00. Thanks!</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <strong>John Doe</strong>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item small" href="#">View all messages</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mr-lg-2" id="alertsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-fw fa-bell"></i>
-            <span class="d-lg-none">Alerts
-              <span class="badge badge-pill badge-warning">6 New</span>
-            </span>
-            <span class="indicator text-warning d-none d-lg-block">
-              <i class="fa fa-fw fa-circle"></i>
-            </span>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="alertsDropdown">
-            <h6 class="dropdown-header">New Alerts:</h6>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <span class="text-success">
-                <strong>
-                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
-              </span>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <span class="text-danger">
-                <strong>
-                  <i class="fa fa-long-arrow-down fa-fw"></i>Status Update</strong>
-              </span>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">
-              <span class="text-success">
-                <strong>
-                  <i class="fa fa-long-arrow-up fa-fw"></i>Status Update</strong>
-              </span>
-              <span class="small float-right text-muted">11:21 AM</span>
-              <div class="dropdown-message small">This is an automated server response message. All systems are online.</div>
-            </a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item small" href="#">View all alerts</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <form class="form-inline my-2 my-lg-0 mr-lg-2">
-            <div class="input-group">
-              <input class="form-control search-top" type="text" placeholder="Search for...">
-              <span class="input-group-btn">
-                <button class="btn btn-primary" type="button">
-                  <i class="fa fa-search"></i>
-                </button>
-              </span>
-            </div>
-          </form>
-        </li>
         <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+            <i class="fa fa-fw fa-sign-out"></i>Exit</a>
         </li>
       </ul>
     </div>
