@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="Ansonika">
   <title>PANAGEA - Admin dashboard</title>
-	
+	s
   <!-- Favicons-->
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
