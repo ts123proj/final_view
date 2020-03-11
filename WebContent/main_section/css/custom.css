@@ -1,3 +1,10 @@
 /*============================================================================================*/
 /* Your custom styles below */
 /*============================================================================================*/
+.hero_single.version_3:before {
+    background: url(../img/test.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

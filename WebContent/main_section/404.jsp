@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Panagea - Premium site template for travel agencies, hotels and restaurant listing.">
     <meta name="author" content="Ansonika">
-    <title>Panagea | Premium site template for travel agencies, hotels and restaurant listing.</title>
+    <title>YOLOWA || 페이지를 찾을수 없습니다.</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -203,10 +203,10 @@
 				<div class="row justify-content-center text-center">
 					<div class="col-xl-7 col-lg-9">
 						<h2>404 <i class="icon_error-triangle_alt"></i></h2>
-						<p>We're sorry, but the page you were looking for doesn't exist.</p>
+						<p>죄송합니다. 요청하신 페이지를 찾을 수 없습니다.</p>
 						<form>
 							<div class="search_bar_error">
-								<input type="text" class="form-control" placeholder="What are you looking for?">
+								<input type="text" class="form-control" placeholder="무엇을 찾으시나요? 검색 기능을 이용해 보세요.">
 								<input type="submit" value="Search">
 							</div>
 						</form>
