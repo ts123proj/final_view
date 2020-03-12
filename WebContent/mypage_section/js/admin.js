@@ -71,11 +71,13 @@
 		newElem.find('input').val('');
 		newElem.appendTo('table#pricing-list-container');
 	}
+	
 	if ($("table#pricing-list-container").is('*')) {
 		$('.add-pricing-list-item').on('click', function (e) {
 			e.preventDefault();
 			newMenuItem();
 		});
+		// 
 		$(document).on("click", "#pricing-list-container .delete", function (e) {
 			e.preventDefault();
 			$(this).parent().parent().parent().remove();
