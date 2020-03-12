@@ -3,7 +3,7 @@
 
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.jsp"><img src="img/logo.png" data-retina="true" alt="" width="150" height="36"></a>
+    <a class="navbar-brand" href="index.jsp"><img src="${pageContext.request.contextPath}/main_section/img/logo.png" data-retina="true" alt="" width="150" height="36"></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -58,7 +58,7 @@
         <%-- 신고 관리--%>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="accuse">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseAccuse" data-parent="#mylistings">
-            <i class="fa fa-fw fa-user"></i>
+            <i class="fa fa-fw fa-calendar-check-o"></i>
             <span class="nav-link-text">신고 관리</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseAccuse">
@@ -93,12 +93,20 @@
           </ul>
          </li>
       </ul>
-      <%-- 홈페이지로 이동 --%>
+      <ul class="navbar-nav sidenav-toggler">
+        <li class="nav-item">
+          <a class="nav-link text-center" id="sidenavToggler">
+            <i class="fa fa-fw fa-angle-left"></i>
+          </a>
+        </li>
+      </ul>
+      
       <ul class="navbar-nav ml-auto">
         <li class="nav-item dropdown">
+      <%-- 홈페이지 이동 / 관리자 페이지(로그아웃) 나가기--%>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-            <i class="fa fa-fw fa-sign-out"></i>Exit</a>
+          <a class="nav-link" data-toggle="modal" data-target="#exitModal">
+            <i class="fa fa-fw fa-sign-out"></i>Exit&nbsp;&nbsp;</a>
         </li>
       </ul>
     </div>

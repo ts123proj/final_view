@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="Ansonika">
-  <title>PANAGEA - Admin dashboard</title>
+  <title>YoloWa-admin</title>
 	
   <!-- Favicons-->
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -35,7 +35,7 @@
 </head>
 
 <body class="fixed-nav sticky-footer" id="page-top">
-  
+  <%-- header include --%>
   <jsp:include page="nav.jsp"></jsp:include>
   
   <div class="content-wrapper">
@@ -43,9 +43,8 @@
       <!-- Breadcrumbs-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">
-          <a href="#">Dashboard</a>
+          <a href="#">Admin Home</a>
         </li>
-        <li class="breadcrumb-item active">My Dashboard</li>
       </ol>
 	  <!-- Icon Cards-->
       <div class="row">
@@ -127,26 +126,31 @@
    	</div>
     <!-- /.container-wrapper-->
 	
+	<%-- footer include --%>
 	<jsp:include page="footer.jsp"></jsp:include>
 	
-    <!-- Logout Modal-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- exit Modal-->
+    <div class="modal fade" id="exitModal" tabindex="-1" role="dialog" aria-labelledby="exitModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <h5 class="modal-title" id="exitModalLabel">홈페이지 이동</h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">×</span>
             </button>
           </div>
-          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-body">
+          	<div>변경 내용이 저장되지 않을 수 있습니다.</div>
+          	<div>홈페이지로 이동하시겠습니까?</div>
+          </div>
           <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="login.jsp">Logout</a>
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">취소</button>
+            <a class="btn btn-primary" href="#">이동</a>
           </div>
         </div>
       </div>
     </div>
+    
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -11291,7 +11291,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sFirst": "First",
+				"sFirst": "처음",
 	
 	
 				/**
@@ -11314,7 +11314,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sLast": "Last",
+				"sLast": "마지막",
 	
 	
 				/**
@@ -11337,7 +11337,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sNext": "Next",
+				"sNext": "다음",
 	
 	
 				/**
@@ -11360,7 +11360,7 @@
 				 *      } );
 				 *    } );
 				 */
-				"sPrevious": "Previous"
+				"sPrevious": "이전"
 			},
 	
 			/**
@@ -11383,7 +11383,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sEmptyTable": "No data available in table",
+			"sEmptyTable": "조회된 데이터가 없습니다.",
 	
 	
 			/**
@@ -11415,7 +11415,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfo": "Showing _START_ to _END_ of _TOTAL_ entries",
+			"sInfo": "페이지  _START_  of  _END_  (  검색된 데이터 :  _TOTAL_  )",
 	
 	
 			/**
@@ -11436,8 +11436,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sInfoEmpty": "Showing 0 to 0 of 0 entries",
-	
+			"sInfoEmpty": "페이지   0  of   0  (  검색된 데이터 :  0  )",
 	
 			/**
 			 * When a user filters the information in a table, this string is appended
@@ -11576,7 +11575,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sLengthMenu": "Show _MENU_ entries",
+			"sLengthMenu": "데이터선택  _MENU_ ",
 	
 	
 			/**
@@ -11656,7 +11655,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "",
 	
 	
 			/**
@@ -11667,7 +11666,7 @@
 			 *  @dtopt Language
 			 *  @name DataTable.defaults.language.searchPlaceholder
 			 */
-			"sSearchPlaceholder": "",
+			"sSearchPlaceholder": "키워드를 입력해주세요.",
 	
 	
 			/**
@@ -14431,7 +14430,6 @@
 		numbers.DT_el = 'span';
 		return numbers;
 	}
-	
 	
 	$.extend( extPagination, {
 		simple: function ( page, pages ) {
