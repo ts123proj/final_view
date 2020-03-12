@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Panagea - Premium site template for travel agencies, hotels and restaurant listing.">
     <meta name="author" content="Ansonika">
-    <title>Panagea | Premium site template for travel agencies, hotels and restaurant listing.</title>
+    <title>YOLOWA | 여행중이세요? YOLOWA와 함께 숙소 예약을 해보세요.</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -42,35 +42,35 @@
 			<div class="wrapper">
 				<div class="container">
 					<div class="main_search">
-						<h3>Book Unique Experiences</h3>
-						<p>Expolore top rated tours, hotels and restaurants around the world!</p>
+						<h3>YOLOWA와 함께<br> 원하시는 숙소를 찾아보세요.</h3>
+						<p>숙소를 아직 못 정하셨다구요?<br>나만의 여행 스타일에 맞는 유형의 숙소를 YOLOWA에서 둘러보세요.</p>
 						<form>
 						<div class="custom-search-input-2">
 							<div class="form-group">
-									<input class="form-control" type="text" placeholder="Where..." id="autocomplete">
+									<input class="form-control" type="text" placeholder="목적지" id="autocomplete">
 									<i class="icon_pin_alt"></i>
 								</div>
 								<div class="form-group">
-									<input class="form-control" type="text" name="dates" placeholder="When..">
+									<input class="form-control" type="text" name="dates" placeholder="일정">
 									<i class="icon_calendar"></i>
 								</div>
 							
 							<div class="panel-dropdown">
-									<a href="#">Guests <span class="qtyTotal">1</span></a>
+									<a href="#">인원 <span class="qtyTotal">1</span></a>
 									<div class="panel-dropdown-content">
 										<!-- Quantity Buttons -->
 										<div class="qtyButtons">
-											<label>Adults</label>
+											<label>어른</label>
 											<input type="text" name="qtyInput" value="1">
 										</div>
 										<div class="qtyButtons">
-											<label>Childrens</label>
+											<label>어린이</label>
 											<input type="text" name="qtyInput" value="0">
 										</div>
 									</div>
 								</div>
 							<div class="form-group text-right">
-								<input type="submit" class="btn_search" value="Search">
+								<input type="submit" class="btn_search" value="검색">
 							</div>
 						</div>
 						<!-- /row -->
@@ -85,8 +85,8 @@
 		<div class="container container-custom margin_80_0">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Our Popular Tours</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				<h2>슈퍼호스트가 운영하는 YOLOWA의 추천 숙소</h2>
+				<p>전 세계 게스트로부터 높은 평가를 받은 슈퍼호스트의 숙소입니다.</p>
 			</div>
 			<div id="reccomended" class="owl-carousel owl-theme">
 				<div class="item">
@@ -94,11 +94,11 @@
 						<figure>
 							<a href="#0" class="wish_bt"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_1.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>Historic</small>
+							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.jsp">Arc Triomphe</a></h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3><a href="tour-detail.jsp">승현이의 고향, 서울 여기여기 모여라</a></h3>
+							<p>여기다가는 숙소의 설명을 넣어주면 될거 같아요.</p>
 							<span class="price">From <strong>$54</strong> /per person</span>
 						</div>
 						<ul>
@@ -113,15 +113,15 @@
 						<figure>
 							<a href="#0" class="wish_bt"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_2.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>Churches</small>
+							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.jsp">Notredam</a></h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3><a href="tour-detail.jsp">이제는 중국땅이 되어버린 제주 ㅠㅠ</a></h3>
+							<p>숙소 설명 넣기</p>
 							<span class="price">From <strong>$124</strong> /per person</span>
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							<li><i class="icon_compass_alt"></i> 제주도</li>
 							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.0</strong></div></li>
 						</ul>
 					</div>
@@ -132,11 +132,11 @@
 						<figure>
 							<a href="#0" class="wish_bt"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>Historic</small>
+							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.jsp">Versailles</a></h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3><a href="tour-detail.jsp">인섭이형 주민이형 고향 군산</a></h3>
+							<p>숙서설명</p>
 							<span class="price">From <strong>$25</strong> /per person</span>
 						</div>
 						<ul>
@@ -151,11 +151,11 @@
 						<figure>
 							<a href="#0" class="wish_bt"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>Historic</small>
+							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.jsp">Versailles</a></h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3><a href="tour-detail.jsp">태휘형의 나와바리 수원</a></h3>
+							<p>구서ㅏ수거ㅜ거수거숴구서구서</p>
 							<span class="price">From <strong>$25</strong> /per person</span>
 						</div>
 						<ul>
@@ -170,11 +170,11 @@
 						<figure>
 							<a href="#0" class="wish_bt"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_4.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>Museum</small>
+							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.jsp">Pompidue Museum</a></h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
+							<h3><a href="tour-detail.jsp">부산갈매기ㅣ기이</a></h3>
+							<p>수갸ㅓㅗㅁ어망마아브다브ㅏㅇㅁ</p>
 							<span class="price">From <strong>$45</strong> /per person</span>
 						</div>
 						<ul>
@@ -189,15 +189,16 @@
 						<figure>
 							<a href="#0" class="wish_bt"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_5.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
-							<small>Walking</small>
+							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.jsp">Tour Eiffel</a></h3>
-							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<span class="price">From <strong>$65</strong> /per person</span>
+							<h3><a href="tour-detail.jsp">인천의 아들 택수</a></h3>
+							<p>암암우마우바ㅡ다브디,ㅁ임,임,이</p>
+							<span class="price">￦<strong>20000</strong> /박</span>
+							
 						</div>
 						<ul>
-							<li><i class="icon_clock_alt"></i> 1h 30min</li>
+							<li><i class="icon_star_alt"></i> 1h 30min</li>
 							<li><div class="score"><span>Good<em>350 Reviews</em></span><strong>7.5</strong></div></li>
 						</ul>
 					</div>
@@ -205,7 +206,7 @@
 				<!-- /item -->
 			</div>
 			<!-- /carousel -->
-			<p class="btn_home_align"><a href="tours-grid-isotope.jsp" class="btn_1 rounded">View all Tours</a></p>
+			<p class="btn_home_align"><a href="tours-grid-isotope.jsp" class="btn_1 rounded">더 둘러보기</a></p>
 			<hr class="large">
 		</div>
 		<!-- /container -->
@@ -214,8 +215,8 @@
 			<section class="add_bottom_45">
 				<div class="main_title_3">
 					<span><em></em></span>
-					<h2>Popular Hotels and Accommodations</h2>
-					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+					<h2>직접 다녀간 게스트의 후기</h2>
+					<p>한국의 숙소는 15000000개 이상의 후기에서 별 5개 중 4.7개를 받았습니다</p>
 				</div>
 				<div class="row">
 					<div class="col-xl-3 col-lg-6 col-md-6">
@@ -228,6 +229,28 @@
 									<h3>Mariott Hotel</h3>
 								</div>
 							</figure>
+							
+							<!-- 후기 불러오기 -->
+							<div class="review" style="margin-top:8px; margin-bottom:16px; margin-right:32px">
+								<div class="_152551e">
+									<span class="_1jlnvra2">
+										깔끔하고 다 갖춰져있어서 좋았어요:) 위치도 완전 좋아용 다들 여기 살고싶다구ㅋㅋㅋㅋㅋ 화장실도 3개예요!!! 5명이서 씻는것도 전혀 불편함없이 좋았어요^^ 이불도 포근하고 좋습니당ㅎㅎ
+									</span>
+								</div>
+							</div>
+							
+							<div class="guest">
+								<div class="_e296pg" style="height:48px;width:48px;display:inline-block">
+									<img class="_1mgxxu3" src="https://a0.muscache.com/im/pictures/user/5d0a6e77-8d78-4255-96a3-2c3b92befc35.jpg?aki_policy=large" height="48" width="48" alt="지은" title="지은">
+								</div>
+								<div class="_1xz418s">
+									<div class="_36rlri" style="margin-left:16px">
+										<div class="_1p3joamp">지은</div>
+										<div class="_1jlnvra2">한국</div>
+									</div>
+								</div>
+							</div>
+							
 						</a>
 					</div>
 					<!-- /grid_item -->
@@ -272,15 +295,15 @@
 					<!-- /grid_item -->
 				</div>
 				<!-- /row -->
-				<a href="hotels-grid-isotope.jsp"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
+				<a href="hotels-grid-isotope.jsp"><strong>더 둘러보기 (157) <i class="arrow_carrot-right"></i></strong></a>
 			</section>
 			<!-- /section -->
 			
 			<section class="add_bottom_45">
 				<div class="main_title_3">
 					<span><em></em></span>
-					<h2>Popular Restaurants</h2>
-					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+					<h2>한국에서 방금 예약된 숙소</h2>
+					<p>여기야여기</p>
 				</div>
 				<div class="row">
 					<div class="col-xl-3 col-lg-6 col-md-6">
@@ -337,6 +360,129 @@
 			</section>
 			<!-- /section -->
 
+			<section class="add_bottom_45">
+				<div class="main_title_3">
+					<span><em></em></span>
+					<h2>한국에서 방금 예약된 숙소</h2>
+					<p>여기야여기</p>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>8.5</strong></div>
+								<img src="img/restaurant_1.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Da Alfredo</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>7.9</strong></div>
+								<img src="img/restaurant_2.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Slow Food</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>7.5</strong></div>
+								<img src="img/restaurant_3.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Bella Napoli</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>9.0</strong></div>
+								<img src="img/restaurant_4.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Marcus</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /row -->
+				<a href="restaurants-grid-isotope.jsp"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
+			</section>
+			<!-- /section -->
+			
+			<section class="add_bottom_45">
+				<div class="main_title_3">
+					<span><em></em></span>
+					<h2>한국에서 방금 예약된 숙소</h2>
+					<p>여기야여기</p>
+				</div>
+				<div class="row">
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>8.5</strong></div>
+								<img src="img/restaurant_1.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Da Alfredo</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>7.9</strong></div>
+								<img src="img/restaurant_2.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Slow Food</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>7.5</strong></div>
+								<img src="img/restaurant_3.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Bella Napoli</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+					<div class="col-xl-3 col-lg-6 col-md-6">
+						<a href="restaurant-detail.jsp" class="grid_item">
+							<figure>
+								<div class="score"><strong>9.0</strong></div>
+								<img src="img/restaurant_4.jpg" class="img-fluid" alt="">
+								<div class="info">
+									<h3>Marcus</h3>
+								</div>
+							</figure>
+						</a>
+					</div>
+					<!-- /grid_item -->
+				</div>
+				<!-- /row -->
+				<a href="restaurants-grid-isotope.jsp"><strong>View all (157) <i class="arrow_carrot-right"></i></strong></a>
+			</section>
+			<!-- /section -->
+			
+			
 			<div class="banner mb-0">
 				<div class="wrapper d-flex align-items-center opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.3)">
 					<div>

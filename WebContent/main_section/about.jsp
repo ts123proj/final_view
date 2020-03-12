@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>>
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Panagea - Premium site template for travel agencies, hotels and restaurant listing.">
     <meta name="author" content="Ansonika">
-    <title>Panagea | Premium site template for travel agencies, hotels and restaurant listing.</title>
+    <title>YOLOWA || 우리를 소개합니다.</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -202,7 +202,7 @@
 		<section class="hero_in general">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>About Panagea</h1>
+					<h1 class="fadeInUp"><span></span>About YOLOWA</h1>
 				</div>
 			</div>
 		</section>
