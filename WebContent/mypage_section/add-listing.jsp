@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="Ansonika">
-  <title>PANAGEA - Admin dashboard</title>
+  <title>YOLOwa | Add hosting</title>
 	
   <!-- Favicons-->
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -50,73 +50,73 @@
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="index.jsp">
             <i class="fa fa-fw fa-dashboard"></i>
-            <span class="nav-link-text">Dashboard</span>
+            <span class="nav-link-text">대시보드</span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Messages">
           <a class="nav-link" href="messages.jsp">
             <i class="fa fa-fw fa-envelope-open"></i>
-            <span class="nav-link-text">Messages</span>
+            <span class="nav-link-text">메시지</span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Bookings">
           <a class="nav-link" href="bookings.jsp">
             <i class="fa fa-fw fa-calendar-check-o"></i>
-            <span class="nav-link-text">Bookings <span class="badge badge-pill badge-primary">6 New</span></span>
+            <span class="nav-link-text">예약 현황<span class="badge badge-pill badge-primary">6 New</span></span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="My listings">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseMylistings" data-parent="#mylistings">
             <i class="fa fa-fw fa-list"></i>
-            <span class="nav-link-text">My listings</span>
+            <span class="nav-link-text">호스트팅 관리</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseMylistings">
             <li>
-              <a href="listings.jsp">Pending <span class="badge badge-pill badge-primary">6</span></a>
+              <a href="listings.jsp">숙소 관리<span class="badge badge-pill badge-primary">6</span></a>
             </li>
 			<li>
-              <a href="listings.jsp">Active <span class="badge badge-pill badge-success">6</span></a>
+              <a href="listings.jsp">예약 관리<span class="badge badge-pill badge-success">6</span></a>
             </li>
 			<li>
-              <a href="listings.jsp">Expired <span class="badge badge-pill badge-danger">6</span></a>
+              <a href="listings.jsp">신고 관리<span class="badge badge-pill badge-danger">6</span></a>
             </li>
           </ul>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Reviews">
           <a class="nav-link" href="reviews.jsp">
             <i class="fa fa-fw fa-star"></i>
-            <span class="nav-link-text">Reviews</span>
+            <span class="nav-link-text">리뷰</span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Bookmarks">
           <a class="nav-link" href="bookmarks.jsp">
             <i class="fa fa-fw fa-heart"></i>
-            <span class="nav-link-text">Bookmarks</span>
+            <span class="nav-link-text">북마크</span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Add listing">
           <a class="nav-link" href="add-listing.jsp">
             <i class="fa fa-fw fa-plus-circle"></i>
-            <span class="nav-link-text">Add listing</span>
+            <span class="nav-link-text">숙소 추가</span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="My profile">
           <a class="nav-link" href="user-profile.jsp">
             <i class="fa fa-fw fa-user"></i>
-            <span class="nav-link-text">My Profile</span>
+            <span class="nav-link-text">내 프로필</span>
           </a>
         </li>
 		<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#Components">
             <i class="fa fa-fw fa-gear"></i>
-            <span class="nav-link-text">Components</span>
+            <span class="nav-link-text">호스팅 현황</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseComponents">
             <li>
-              <a href="charts.jsp">Charts</a>
+              <a href="charts.jsp">그래프로 보기</a>
             </li>
 			<li>
-              <a href="tables.jsp">Tables</a>
+              <a href="tables.jsp">리스트로 보기</a>
             </li>
           </ul>
         </li>
@@ -139,8 +139,9 @@
               <i class="fa fa-fw fa-circle"></i>
             </span>
           </a>
+          <!-- 메시지 요약보기 -->
           <div class="dropdown-menu" aria-labelledby="messagesDropdown">
-            <h6 class="dropdown-header">New Messages:</h6>
+            <h6 class="dropdown-header">새로운 메시지:</h6>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
               <strong>David Miller</strong>
@@ -160,8 +161,9 @@
               <div class="dropdown-message small">I've sent the final files over to you for review. When you're able to sign off of them let me know and we can discuss distribution.</div>
             </a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item small" href="#">View all messages</a>
+            <a class="dropdown-item small" href="#">모든 메시지 보기</a>
           </div>
+          
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle mr-lg-2" id="alertsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -174,7 +176,7 @@
             </span>
           </a>
           <div class="dropdown-menu" aria-labelledby="alertsDropdown">
-            <h6 class="dropdown-header">New Alerts:</h6>
+            <h6 class="dropdown-header">새로운 알림:</h6>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">
               <span class="text-success">
@@ -220,7 +222,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-            <i class="fa fa-fw fa-sign-out"></i>Logout</a>
+            <i class="fa fa-fw fa-sign-out"></i>로그아웃</a>
         </li>
       </ul>
     </div>
