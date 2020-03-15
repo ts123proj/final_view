@@ -66,7 +66,7 @@
 										<div class="qtyButtons">
 											<label>어린이</label>
 											<input type="text" name="qtyInput" value="0">
-										</div>
+										</div> 
 									</div>
 								</div>
 							<div class="form-group text-right">
