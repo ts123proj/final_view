@@ -223,7 +223,8 @@
 						<div class="wrapper">
 							<h3><a href="tour-detail.jsp">Arc Triomphe</a></h3>    
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<span class="price">From <strong>$54</strong> /per person</span>
+							<span class="price">From <strong>$54</strong> /per person
+							</span>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
