@@ -190,7 +190,7 @@
                         <li><a href="hamburgers.jsp">Animated Hamburgers</a></li>
 					</ul>
 				</li>
-				<li><span><a href="#0">Buy template</a></span></li>
+				<li><span><a href="#0">Buy template</a></span></li>    
 			</ul>
 		</nav>
 
