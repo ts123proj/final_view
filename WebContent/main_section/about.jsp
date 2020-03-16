@@ -12,22 +12,22 @@
     <title>YOLOWA || 우리를 소개합니다.</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="shortcut icon" href="/final_view/resource/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="/final_view/resource/img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="/final_view/resource/img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="/final_view/resource/img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="/final_view/resource/img/apple-touch-icon-144x144-precomposed.png">
 
     <!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
+    <link href="/final_view/resource/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/final_view/resource/css/style.css" rel="stylesheet">
+	<link href="/final_view/resource/css/vendors.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="/final_view/resource/css/custom.css" rel="stylesheet">
 	
 </head>
 
@@ -202,7 +202,7 @@
 		<section class="hero_in general">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>About YOLOWA</h1>
+					<h1 class="fadeInUp"><span></span>ABOUT YOLOWA</h1>
 				</div>
 			</div>
 		</section>
@@ -211,35 +211,35 @@
 		<div class="container margin_80_55">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Why Choose Panagea</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				<h2>YOLOWA의 업적과 지원 정보</h2>
+				<p></p>
 			</div>
 			<div class="row">
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#0">
 						<i class="pe-7s-medal"></i>
-						<h3>+ 1000 Customers</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
+						<h3>500+ 고객</h3>
+						<p>500명 이상의 고객이 YOLOWA를 이용하고 계십니다. 고객님들의 성원에 힘입어 많은 쾌적한 서비스로 보답하겠습니다.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#0">
 						<i class="pe-7s-help2"></i>
-						<h3>H24 Support</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
+						<h3>24H 지원</h3>
+						<p>언제 어디서든 YOLOWA의 STAFF들이 여러분의 이용에 불편을 드리지 않기 위해 24시간 지원을 해드립니다.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#0">
 						<i class="pe-7s-culture"></i>
-						<h3>+ 575 Locations</h3>
-						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris.</p>
+						<h3>+ 1000 숙소제공</h3>
+						<p>국내 전 지역에서 1000개 이상의 쾌적하고 편안한 숙소, 합리적인 가격으로 이용할 수 있도록 정보를 제공하겠습니다.</p>
 					</a>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<a class="box_feat" href="#0">
 						<i class="pe-7s-headphones"></i>
-						<h3>Help Direct Line</h3>
+						<h3></h3>
 						<p>Id mea congue dictas, nec et summo mazim impedit. Vim te audiam impetus interpretaris, cum no alii option, cu sit mazim libris. </p>
 					</a>
 				</div>
@@ -266,20 +266,25 @@
 			<div class="container margin_80_55">
 				<div class="main_title_2">
 					<span><em></em></span>
-					<h2>Our Origins and Story</h2>
-					<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+					<h2>YOLOWA STORY</h2>
+					<p>우리가 추구하는 목표와 의미</p>
 				</div>
 				<div class="row justify-content-between">
 					<div class="col-lg-6 wow" data-wow-offset="150">
 						<figure class="block-reveal">
 							<div class="block-horizzontal"></div>
-							<img src="img/about_1.jpg" class="img-fluid" alt="">
+							<img src="/final_view/resource/img/about_2.jpg" class="img-fluid" alt="">
 						</figure>
 					</div>
 					<div class="col-lg-5">
-						<p>Lorem ipsum dolor sit amet, homero erroribus in cum. Cu eos <strong>scaevola probatus</strong>. Nam atqui intellegat ei, sed ex graece essent delectus. Autem consul eum ea. Duo cu fabulas nonumes contentiones, nihil voluptaria pro id. Has graeci deterruisset ad, est no primis detracto pertinax, at cum malis vitae facilisis.</p>
-						<p>Dicam diceret ut ius, no epicuri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore <strong>percipitur definitiones</strong> ex, nihil utinam recusabo mel no. Dolores reprehendunt no sit, quo cu viris theophrastus. Sit unum efficiendi cu.</p>
-						<p><em>CEO Marc Schumaker</em></p>
+						<p><strong>YOLO!</strong><br>
+						단 한번뿐인 인생을 즐기자라는 <strong>YOLO(You Only Live Once)</strong>에서 아이디어를 얻어 홈페이지명을 정하게 되었습니다.
+						YOLO를 즐기기 위해 여행을 하는 여행자들에게 보다 쾌적하고 편안한 숙소를 제공하기 위해 정보들을 모아 구축하였습니다.
+						uri dissentiet philosophia vix. Id usu zril tacimates neglegentur. Eam id legimus torquatos cotidieque, usu decore <strong>percipitur definitiones</strong> ex, nihil utinam recusabo mel no. Dolores reprehendunt no sit, quo cu viris theophrastus. Sit unum efficiendi cu.</p>
+						<p><strong>YOLO(You Only Live Once)</strong><br>
+							저희 YOLOWA는 여행을 즐기는 모든 분들께 편안하고 쾌적한 숙소로 보다 나은 서비스를 제공하기 위해 만들었습니다. 
+							 Nam atqui intellegat ei, sed ex graece essent delectus. Autem consul eum ea. Duo cu fabulas nonumes contentiones, nihil voluptaria pro id. Has graeci deterruisset ad, est no primis detracto pertinax, at cum malis vitae facilisis.</p>
+						<p><em>Leader 김인섭</em></p>
 					</div>
 				</div>
 				<!--/row-->
@@ -291,43 +296,42 @@
 		<div class="container margin_80_55">
 			<div class="main_title_2">
 				<span><em></em></span>
-				<h2>Our founders</h2>
-				<p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+				<h2>프로젝트 담당자 및 담당업무</h2>
 			</div>
 			<div id="carousel" class="owl-carousel owl-theme">
 				<div class="item">
 					<a href="#0">
 						<div class="title">
-							<h4>Julia Holmes<em>CEO</em></h4>
-						</div><img src="img/1_carousel.jpg" alt="">
+							<h4>김인섭<em>Project Manager</em></h4>
+						</div><img src="/final_view/resource/img/IS.jpeg" alt="개인사진 or 이모지">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#0">
 						<div class="title">
-							<h4>Lucas Smith<em>Marketing</em></h4>
-						</div><img src="img/2_carousel.jpg" alt="">
+							<h4>최태휘<em>Database Manager</em></h4>
+						</div><img src="/final_view/resource/img/TH.jpg" alt="개인사진 or 이모지">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#0">
 						<div class="title">
-							<h4>Paul Stephens<em>Business strategist</em></h4>
-						</div><img src="img/3_carousel.jpg" alt="">
+							<h4>김주민<em>DetailPage Manager</em></h4>
+						</div><img src="/final_view/resource/img/JM.jpg" alt="개인사진 or 이모지">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#0">
 						<div class="title">
-							<h4>Pablo Himenez<em>Customer Service</em></h4>
-						</div><img src="img/4_carousel.jpg" alt="">
+							<h4>최승현<em>MainPage Manager</em></h4>
+						</div><img src="/final_view/resource/img/SH.jpeg" alt="개인사진 or 이모지">
 					</a>
 				</div>
 				<div class="item">
 					<a href="#0">
 						<div class="title">
-							<h4>Andrew Stuttgart<em>Admissions</em></h4>
-						</div><img src="img/5_carousel.jpg" alt="">
+							<h4>이택수<em>AdminPage Manager</em></h4>
+						</div><img src="/final_view/resource/img/TS.jpg" alt="개인사진 or 이모지">
 					</a>
 				</div>
 			</div>
@@ -473,9 +477,9 @@
 	<div id="toTop"></div><!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+    <script src="/final_view/resource/js/common_scripts.js"></script>
+    <script src="/final_view/resource/js/main.js"></script>
+	<script src="/final_view/resource/assets/validate.js"></script>
 	
 </body>
 </html>

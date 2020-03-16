@@ -2,7 +2,7 @@
 /* Your custom styles below */
 /*============================================================================================*/
 .hero_single.version_3:before {
-    background: url(/final_view/main_section/img/test.jpg) center center no-repeat;
+    background: url(/final_view/resource/img/test.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,7 +10,15 @@
 }
 
 .hero_in.general:before {
-    background: url(/final_view/main_section/img/about.jpg) center center no-repeat;
+    background: url(/final_view/resource/img/about_1.jpg) center center no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero_in.contacts:before {
+    background: url(/final_view/resource/img/contact_1.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

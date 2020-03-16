@@ -22,12 +22,12 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
+    <link href="/final_view/resource/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/final_view/resource/css/style.css" rel="stylesheet">
+	<link href="/final_view/resource/css/vendors.css" rel="stylesheet">
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="/final_view/resource/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -505,9 +505,9 @@
 	<div id="toTop"></div><!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+    <script src="/final_view/resource/js/common_scripts.js"></script>
+    <script src="/final_view/resource/js/main.js"></script>
+	<script src="/final_view/resource/assets/validate.js"></script>
   
 </body>
 </html>
