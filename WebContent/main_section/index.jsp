@@ -19,16 +19,19 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="${pageContext.request.contextPath }/resource/img/apple-touch-icon-144x144-precomposed.png">
 
     <!-- GOOGLE WEB FONT -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap&subset=korean" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath }/resource/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath }/resource/css/style.css" rel="stylesheet">
+	<link href="${pageContext.request.contextPath }/resource/css/vendors.css" rel="stylesheet">
 
-    <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <!-- YOUR CUSTOM-->
+    <link href="${pageContext.request.contextPath }/resource/css/custom.css" rel="stylesheet">
 
+</head>
+	
+	
 </head>
 
 <body>
@@ -93,7 +96,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.jsp"><img src="img/tour_1.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="${pageContext.request.contextPath }/resource/img/tour_1.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
@@ -112,7 +115,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.jsp"><img src="img/tour_2.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="${pageContext.request.contextPath }/resource/img/tour_2.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
@@ -131,7 +134,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.jsp"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="${pageContext.request.contextPath }/resource/img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
@@ -150,7 +153,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.jsp"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="${pageContext.request.contextPath }/resource/img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
@@ -169,7 +172,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.jsp"><img src="img/tour_4.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="${pageContext.request.contextPath }/resource/img/tour_4.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
@@ -188,7 +191,7 @@
 					<div class="box_grid">
 						<figure>
 							<a href="#0" class="wish_bt"></a>
-							<a href="tour-detail.jsp"><img src="img/tour_5.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
+							<a href="tour-detail.jsp"><img src="${pageContext.request.contextPath }/resource/img/tour_5.jpg" class="img-fluid" alt="" width="800" height="533"><div class="read_more"><span>Read more</span></div></a>
 							<small>슈퍼호스트</small>
 						</figure>
 						<div class="wrapper">
@@ -215,93 +218,6 @@
 			<section class="add_bottom_45">
 				<div class="main_title_3">
 					<span><em></em></span>
-					<h2>직접 다녀간 게스트의 후기</h2>
-					<p>한국의 숙소는 15000000개 이상의 후기에서 별 5개 중 4.7개를 받았습니다</p>
-				</div>
-				<div class="row">
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.jsp" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="img/hotel_1.jpg" class="img-fluid" alt="">
-								<div class="info">
-									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-									<h3>Mariott Hotel</h3>
-								</div>
-							</figure>
-							
-							<!-- 후기 불러오기 -->
-							<div class="review" style="margin-top:8px; margin-bottom:16px; margin-right:32px">
-								<div class="_152551e">
-									<span class="_1jlnvra2">
-										깔끔하고 다 갖춰져있어서 좋았어요:) 위치도 완전 좋아용 다들 여기 살고싶다구ㅋㅋㅋㅋㅋ 화장실도 3개예요!!! 5명이서 씻는것도 전혀 불편함없이 좋았어요^^ 이불도 포근하고 좋습니당ㅎㅎ
-									</span>
-								</div>
-							</div>
-							
-							<div class="guest">
-								<div class="_e296pg" style="height:48px;width:48px;display:inline-block">
-									<img class="_1mgxxu3" src="https://a0.muscache.com/im/pictures/user/5d0a6e77-8d78-4255-96a3-2c3b92befc35.jpg?aki_policy=large" height="48" width="48" alt="지은" title="지은">
-								</div>
-								<div class="_1xz418s">
-									<div class="_36rlri" style="margin-left:16px">
-										<div class="_1p3joamp">지은</div>
-										<div class="_1jlnvra2">한국</div>
-									</div>
-								</div>
-							</div>
-							
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.jsp" class="grid_item">
-							<figure>
-								<div class="score"><strong>7.9</strong></div>
-								<img src="img/hotel_2.jpg" class="img-fluid" alt="">
-								<div class="info">
-									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-									<h3>Concorde Hotel </h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.jsp" class="grid_item">
-							<figure>
-								<div class="score"><strong>7.0</strong></div>
-								<img src="img/hotel_3.jpg" class="img-fluid" alt="">
-								<div class="info">
-									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-									<h3>Louvre Hotel</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-					<div class="col-xl-3 col-lg-6 col-md-6">
-						<a href="hotel-detail.jsp" class="grid_item">
-							<figure>
-								<div class="score"><strong>8.9</strong></div>
-								<img src="img/hotel_4.jpg" class="img-fluid" alt="">
-								<div class="info">
-									<div class="cat_star"><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i><i class="icon_star"></i></div>
-									<h3>Park Yatt Hotel</h3>
-								</div>
-							</figure>
-						</a>
-					</div>
-					<!-- /grid_item -->
-				</div>
-				<!-- /row -->
-				<a href="hotels-grid-isotope.jsp"><strong>더 둘러보기 (157) <i class="arrow_carrot-right"></i></strong></a>
-			</section>
-			<!-- /section -->
-			
-			<section class="add_bottom_45">
-				<div class="main_title_3">
-					<span><em></em></span>
 					<h2>한국에서 방금 예약된 숙소</h2>
 					<p>여기야여기</p>
 				</div>
@@ -310,7 +226,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>8.5</strong></div>
-								<img src="img/restaurant_1.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_1.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Da Alfredo</h3>
 								</div>
@@ -322,7 +238,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.9</strong></div>
-								<img src="img/restaurant_2.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_2.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Slow Food</h3>
 								</div>
@@ -334,7 +250,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.5</strong></div>
-								<img src="img/restaurant_3.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_3.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Bella Napoli</h3>
 								</div>
@@ -346,7 +262,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>9.0</strong></div>
-								<img src="img/restaurant_4.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_4.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Marcus</h3>
 								</div>
@@ -371,7 +287,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>8.5</strong></div>
-								<img src="img/restaurant_1.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_1.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Da Alfredo</h3>
 								</div>
@@ -383,7 +299,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.9</strong></div>
-								<img src="img/restaurant_2.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_2.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Slow Food</h3>
 								</div>
@@ -395,7 +311,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.5</strong></div>
-								<img src="img/restaurant_3.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_3.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Bella Napoli</h3>
 								</div>
@@ -407,7 +323,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>9.0</strong></div>
-								<img src="img/restaurant_4.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_4.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Marcus</h3>
 								</div>
@@ -432,7 +348,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>8.5</strong></div>
-								<img src="img/restaurant_1.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_1.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Da Alfredo</h3>
 								</div>
@@ -444,7 +360,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.9</strong></div>
-								<img src="img/restaurant_2.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_2.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Slow Food</h3>
 								</div>
@@ -456,7 +372,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>7.5</strong></div>
-								<img src="img/restaurant_3.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_3.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Bella Napoli</h3>
 								</div>
@@ -468,7 +384,7 @@
 						<a href="restaurant-detail.jsp" class="grid_item">
 							<figure>
 								<div class="score"><strong>9.0</strong></div>
-								<img src="img/restaurant_4.jpg" class="img-fluid" alt="">
+								<img src="${pageContext.request.contextPath }/resource/img/restaurant_4.jpg" class="img-fluid" alt="">
 								<div class="info">
 									<h3>Marcus</h3>
 								</div>
@@ -509,7 +425,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<a class="box_news" href="#0">
-							<figure><img src="img/news_home_1.jpg" alt="">
+							<figure><img src="${pageContext.request.contextPath }/resource/img/news_home_1.jpg" alt="">
 								<figcaption><strong>28</strong>Dec</figcaption>
 							</figure>
 							<ul>
@@ -523,7 +439,7 @@
 					<!-- /box_news -->
 					<div class="col-lg-6">
 						<a class="box_news" href="#0">
-							<figure><img src="img/news_home_2.jpg" alt="">
+							<figure><img src="${pageContext.request.contextPath }/resource/img/news_home_2.jpg" alt="">
 								<figcaption><strong>28</strong>Dec</figcaption>
 							</figure>
 							<ul>
@@ -537,7 +453,7 @@
 					<!-- /box_news -->
 					<div class="col-lg-6">
 						<a class="box_news" href="#0">
-							<figure><img src="img/news_home_3.jpg" alt="">
+							<figure><img src="${pageContext.request.contextPath }/resource/img/news_home_3.jpg" alt="">
 								<figcaption><strong>28</strong>Dec</figcaption>
 							</figure>
 							<ul>
@@ -551,7 +467,7 @@
 					<!-- /box_news -->
 					<div class="col-lg-6">
 						<a class="box_news" href="#0">
-							<figure><img src="img/news_home_4.jpg" alt="">
+							<figure><img src="${pageContext.request.contextPath }/resource/img/news_home_4.jpg" alt="">
 								<figcaption><strong>28</strong>Dec</figcaption>
 							</figure>
 							<ul>
@@ -641,9 +557,9 @@
 	<!-- /Sign In Popup -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+    <script src="${pageContext.request.contextPath }/resource/js/common_scripts.js"></script>
+    <script src="${pageContext.request.contextPath }/resource/js/main.js"></script>
+	<script src="${pageContext.request.contextPath }/resource/assets/validate.js"></script>
 	
 	<!-- DATEPICKER  -->
 	<script>
@@ -664,6 +580,8 @@
 	});
 	</script>
 	
+	<!-- INPUT QUANTITY  -->
+	<script src="${pageContext.request.contextPath }/resource/js/input_qty.js"></script>
 
 	<!-- Autocomplete -->
     <script>

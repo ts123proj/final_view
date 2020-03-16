@@ -12,22 +12,22 @@
     <title>Panagea | Premium site template for travel agencies, hotels and restaurant listing.</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath }/resource/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="${pageContext.request.contextPath }/resource/img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="${pageContext.request.contextPath }/resource/img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="${pageContext.request.contextPath }/resource/img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="${pageContext.request.contextPath }/resource/img/apple-touch-icon-144x144-precomposed.png">
 
     <!-- GOOGLE WEB FONT -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
 
     <!-- BASE CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-	<link href="css/vendors.css" rel="stylesheet"> 
+    <link href="${pageContext.request.contextPath }/resource/css/bootstrap.min.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath }/resource/css/style.css" rel="stylesheet">
+	<link href="${pageContext.request.contextPath }/resource/css/vendors.css" rel="stylesheet"> 
 
     <!-- YOUR CUSTOM CSS -->
-    <link href="css/custom.css" rel="stylesheet">
+    <link href="${pageContext.request.contextPath }/resource/css/custom.css" rel="stylesheet">
 
 </head>
 
@@ -190,7 +190,7 @@
                         <li><a href="hamburgers.jsp">Animated Hamburgers</a></li>
 					</ul>
 				</li>
-				<li><span><a href="#0">Buy template</a></span></li>
+				<li><span><a href="#0">Buy template</a></span></li>    
 			</ul>
 		</nav>
 
@@ -202,7 +202,7 @@
 		<section class="hero_in tours">
 			<div class="wrapper">
 				<div class="container">
-					<h1 class="fadeInUp"><span></span>Your Wishlist</h1>
+					<h1 class="fadeInUp"><span></span>저장 목록</h1>
 				</div>
 			</div>
 		</section>
@@ -217,13 +217,14 @@
 						<figure>
 							<a href="#0" class="wish_bt liked"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_1.jpg" class="img-fluid" alt="" width="800" height="533"></a>
-							<small>Historic</small>
+							<small>서울(지역명)</small>
 							<div class="read_more"><span>Read more</span></div>
 						</figure>
 						<div class="wrapper">
-							<h3><a href="tour-detail.jsp">Arc Triomphe</a></h3>
+							<h3><a href="tour-detail.jsp">Arc Triomphe</a></h3>    
 							<p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.</p>
-							<span class="price">From <strong>$54</strong> /per person</span>
+							<span class="price">From <strong>$54</strong> /per person
+							</span>
 						</div>
 						<ul>
 							<li><i class="icon_clock_alt"></i> 1h 30min</li>
@@ -237,7 +238,7 @@
 						<figure>
 							<a href="#0" class="wish_bt liked"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_2.jpg" class="img-fluid" alt="" width="800" height="533"></a>
-							<small>Churches</small>
+							<small>제주(지역명)</small>
 							<div class="read_more"><span>Read more</span></div>
 						</figure>
 						<div class="wrapper">
@@ -257,7 +258,7 @@
 						<figure>
 							<a href="#0" class="wish_bt liked"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_3.jpg" class="img-fluid" alt="" width="800" height="533"></a>
-							<small>Historic</small>
+							<small>부산(지역명)</small>
 							<div class="read_more"><span>Read more</span></div>
 						</figure>
 						<div class="wrapper">
@@ -277,7 +278,7 @@
 						<figure>
 							<a href="#0" class="wish_bt liked"></a>
 							<a href="tour-detail.jsp"><img src="img/tour_4.jpg" class="img-fluid" alt="" width="800" height="533"></a>
-							<small>Museum</small>
+							<small>제주(지역명)</small>
 							<div class="read_more"><span>Read more</span></div>
 						</figure>
 						<div class="wrapper">
@@ -510,9 +511,9 @@
 	<div id="toTop"></div><!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="js/common_scripts.js"></script>
-    <script src="js/main.js"></script>
-	<script src="assets/validate.js"></script>
+    <script src="${pageContext.request.contextPath }/resource/js/common_scripts.js"></script>
+    <script src="${pageContext.request.contextPath }/resource/js/main.js"></script>
+	<script src="${pageContext.request.contextPath }/resource/assets/validate.js"></script>
 	
 	<script>
 		$('.wish_bt.liked').on('click', function (c) {

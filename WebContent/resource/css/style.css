@@ -409,7 +409,7 @@ body {
   background: #f8f8f8;
   font-size: 0.875rem;
   line-height: 1.6;
-  font-family: "Poppins", Helvetica, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #555;
 }
 
@@ -1116,7 +1116,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   }
 }
 .hero_in.general:before {
-  background: url(../img/hero_in_bg_2.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_bg_2.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1127,7 +1127,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   background-color: rgba(0, 0, 0, 0.6);
 }
 .hero_in.tours:before {
-  background: url(../img/hero_in_bg_1.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_bg_1.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1138,7 +1138,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   background-color: rgba(0, 0, 0, 0.6);
 }
 .hero_in.hotels:before {
-  background: url(../img/hero_in_bg_4.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_bg_4.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1149,7 +1149,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   background-color: rgba(0, 0, 0, 0.6);
 }
 .hero_in.restaurants:before {
-  background: url(../img/hero_in_bg_5.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_bg_5.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1168,7 +1168,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   }
 }
 .hero_in.tours_detail:before {
-  background: url(../img/hero_in_tours_detail.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_tours_detail.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1187,7 +1187,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   }
 }
 .hero_in.hotels_detail:before {
-  background: url(../img/hero_in_hotels_detail.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_hotels_detail.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1206,7 +1206,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   }
 }
 .hero_in.restaurants_detail:before {
-  background: url(../img/hero_in_restaurants_detail.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_restaurants_detail.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1217,7 +1217,7 @@ header.sticky .hamburger-inner, header.sticky .hamburger-inner::before, header.s
   background-color: rgba(0, 0, 0, 0.6);
 }
 .hero_in.contacts:before {
-  background: url(../img/hero_in_bg_3.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/hero_in_bg_3.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1983,7 +1983,7 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   right: 20px;
   bottom: 20px;
-  background: url(../img/drag_icon.svg) 0 0 no-repeat;
+  background: url(/final_view/resource/img/drag_icon.svg) 0 0 no-repeat;
   width: 50px;
   height: 30px;
   opacity: 0.6;
@@ -2234,7 +2234,7 @@ video {
 
 @media (max-width: 1024px) {
   #hero_video {
-    background: #ccc url(../img/home_section_1.jpg);
+    background: #ccc url(/final_view/resource/img/home_section_1.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -2324,7 +2324,7 @@ video {
   height: 620px;
 }
 .hero_single.version_2:before {
-  background: url(../img/home_section_1.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/home_section_1.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2434,7 +2434,7 @@ video {
 @media (max-width: 575px) {
   #custom-search-input input[type='submit'] {
     text-indent: -999px;
-    background: #fc5b62 url(../img/search.svg) no-repeat center center;
+    background: #fc5b62 url(/final_view/resource/img/search.svg) no-repeat center center;
   }
 }
 
@@ -4378,7 +4378,7 @@ ul.hotel_facilities li img {
 
 /*-------- 2.5 Login/register --------*/
 #login_bg, #register_bg {
-  background: url(../img/hero_in_bg_3.jpg) center center no-repeat fixed;
+  background: url(/final_view/resource/img/hero_in_bg_3.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -4388,7 +4388,7 @@ ul.hotel_facilities li img {
 }
 
 #register_bg {
-  background: url(../img/hero_in_bg_2.jpg) center center no-repeat fixed;
+  background: url(/final_view/resource/img/hero_in_bg_2.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -4677,7 +4677,7 @@ a.social_bt.linkedin:before {
   background: white;
   position: relative;
   z-index: 999;
-  font-family: "Poppins", Helvetica, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
 }
 .marker_info img {
@@ -4911,7 +4911,7 @@ span.infobox_rate {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #0054a6 url(../img/pattern_1.svg) center bottom repeat-x;
+  background: #0054a6 url(/final_view/resource/img/pattern_1.svg) center bottom repeat-x;
   color: #fff;
 }
 @media (max-width: 767px) {
@@ -4998,7 +4998,7 @@ span.infobox_rate {
 
 /*-------- 2.9 Cart section --------*/
 .cart_section {
-  background: #0054a6 url(../img/pattern_1.svg) center bottom repeat-x;
+  background: #0054a6 url(/final_view/resource/img/pattern_1.svg) center bottom repeat-x;
 }
 @media (max-width: 767px) {
   .cart_section {
@@ -5732,7 +5732,7 @@ ul.list_3 li:before {
 
 @media (max-width: 1024px) {
   .header-video.adventure #hero_video {
-    background: #ccc url(../img/bg_fallback_video_adventure.jpg) center right;
+    background: #ccc url(/final_view/resource/img/bg_fallback_video_adventure.jpg) center right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -5830,7 +5830,7 @@ a.grid_item.latest_adventure em {
 }
 
 .banner {
-  background: url(../img/banner_bg_desktop.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/banner_bg_desktop.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -5842,7 +5842,7 @@ a.grid_item.latest_adventure em {
 }
 @media (max-width: 767px) {
   .banner {
-    background: url(../img/banner_bg_mobile.jpg) center center no-repeat;
+    background: url(/final_view/resource/img/banner_bg_mobile.jpg) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -5876,7 +5876,7 @@ a.grid_item.latest_adventure em {
 }
 
 .call_section.adventure {
-  background: url(../img/bg_call_action_adventure.jpg) center center no-repeat fixed;
+  background: url(/final_view/resource/img/bg_call_action_adventure.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -5899,7 +5899,7 @@ a.grid_item.latest_adventure em {
   }
 }
 .hero_in.adventure_detail:before {
-  background: url(../img/bg_adventure_detail.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/bg_adventure_detail.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6202,7 +6202,7 @@ ul.list_feat li p {
   height: 690px;
 }
 .hero_single.version_3:before {
-  background: url(../img/home_section_3.jpg) center center no-repeat;
+  background: url(/final_view/resource/img/home_section_3.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6382,7 +6382,7 @@ header.header.map_view .hamburger-inner, header.header.map_view .hamburger-inner
 }
 
 a.btn_search_map_view {
-  background: url(../img/search.svg) no-repeat center center;
+  background: url(/final_view/resource/img/search.svg) no-repeat center center;
   background-size: 21px 21px;
   width: 21px;
   height: 21px;
@@ -6631,7 +6631,7 @@ a.address:hover {
   -moz-border-radius: 4px !important;
   -ms-border-radius: 4px !important;
   border-radius: 4px !important;
-  font-family: "Poppins", Helvetica, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   color: #555;
   -webkit-box-shadow: 0 12px 35px 2px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 12px 35px 2px rgba(0, 0, 0, 0.12);
@@ -7257,7 +7257,7 @@ a.address:hover {
 
 .leaflet-popup-content {
   margin: 0;
-  font-family: "Poppins", Helvetica, sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   position: relative;
 }
 .leaflet-popup-content img {
@@ -7397,7 +7397,7 @@ a.address:hover {
 }
 
 .call_section {
-  background: url(../img/bg_call_section.jpg) center center no-repeat fixed;
+  background: url(/final_view/resource/img/bg_call_section.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
