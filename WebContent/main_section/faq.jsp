@@ -517,7 +517,7 @@
 						<li><a href="register.jsp">Register</a></li>
 						<li><a href="blog.jsp">News &amp; Events</a></li>
 						<li><a href="contacts.jsp">Contacts</a></li>
-					</ul>
+					</ul> 
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h5>Contact with Us</h5>
