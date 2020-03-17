@@ -3,7 +3,7 @@
 
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.jsp"><img src="${pageContext.request.contextPath}/main_section/img/logo.png" data-retina="true" alt="" width="150" height="36"></a>
+    <a class="navbar-brand" href="index.jsp"><img src="${pageContext.request.contextPath}/resource//img/logo.png" data-retina="true" alt="" width="150" height="36"></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -11,7 +11,7 @@
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
       	<%-- 관리자 홈 --%>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
-          <a class="nav-link" href="index.jsp">
+          <a class="nav-link" href="#">
             <i class="fa fa-fw fa-dashboard"></i>
             <span class="nav-link-text">관리자 홈</span>
           </a>
@@ -24,15 +24,18 @@
             <span class="nav-link-text">매출 관리</span>
           </a>
           <ul class="sidenav-second-level collapse" id="collapseSales">
+          <%-- 임시로 지워뒀습니다.
             <li>
               <a href="#">Pending <span class="badge badge-pill badge-primary">el${el }</span></a>
             </li>
 			<li>
               <a href="#">Active <span class="badge badge-pill badge-success">el${el }</span></a>
             </li>
+          --%>
 			<li>
-              <a href="#">Expired <span class="badge badge-pill badge-danger">el${el }</span></a>
+              <a href="#">예약 정보 <span class="badge badge-pill badge-danger">el${el }</span></a>
             </li>
+            
           </ul>
         </li>
         
@@ -112,3 +115,6 @@
     </div>
   </nav>
   <!-- /Navigation-->
+  
+  <%-- include directive : exit modal --%>
+<%@ include file="/admin_section/component/exit.jspf"%>

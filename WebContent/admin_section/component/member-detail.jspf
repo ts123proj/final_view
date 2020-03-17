@@ -1,0 +1,146 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%-- member detail component--%>
+<div id="memberDetailComponent" class="fullcomponent" style="display:none;">
+	<div>
+		<div class="exitBtnBox" style="margin: 30px; height: 10px;">
+			<button type="button" onclick="closeMemberDetailComponent()" style=""><p style="font-size: 30px">x</p></button>
+		</div>
+		<div class="title">
+			<h3>회원 상세보기</h3>
+			<h5>
+				<span>회원번호 : </span>
+				<span>0001 (정상 [or 정지 (~9999~12-30 / 영구)])</span>
+			</h5>
+		</div>
+		<div class="content">
+			<div class="row">
+				<%-- 회원프로필에 관련된 부분 --%>
+				<div class="col">
+					<div class="title">
+						<h4>프로필</h4>
+					</div>
+					<%-- 프로필 이미지 --%>
+					<div class="borderBox">
+						<div style="height: 515px;">
+							<div style="border:20px solid lightgray; ">
+								<img src="${pageContext.request.contextPath}/admin_section/img/Penguins.jpg" width="100%">
+							</div>
+							<%-- 프로필 소개 --%>
+							<p>
+								<span>소개 : </span>
+								<span>안녕하세요. 펭귄입니다.</span>
+							</p>
+							<%-- 프로필 직장 --%>
+							<p>
+								<span>직장 : </span> 
+								<span>없음</span>
+							</p>
+							<%-- 프로필 거주지 --%>
+							<p>
+								<span>거주지 : </span> 
+								<span>없음</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<%-- 회원 상세정보에 관한 부분 --%>
+				<div class="col">
+					<div class="title">
+						<h4>요약</h4>
+					</div>
+					<div class="borderBox">
+						<div>
+							<p class="email">이메일 : aaa@naver.com</p>
+							<p class="name">
+								<span>이름 : </span>
+								<span>홍길동</span>
+								<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+								<span>성별 : </span>
+								<span>남</span>
+							</p>
+							<p class="birthday">
+								<span>생년월일 : </span>
+								<span>yyyy년 mm월 dd일</span>
+							</p>
+							<p class="phone">
+								<span>전화번호 : </span> 
+								<span>010-0000-1234</span>
+							</p>
+							<p class="address">
+								<span>주소 : </span>
+								<span>서울시 강동구 상일동 123-123</span>
+							</p>
+							<p class="joinDate">
+								<span>회원가입일 : </span>
+								<span>1999-02-02</span>
+							</p>
+							<p class="lastLogin">
+								<span>마지막로그인 : </span>
+								<span>2011-01-01</span>
+							</p>
+							<p class="status">
+								<span>회원 상태 : </span> 
+								<span>정상</span>
+							</p>
+							<p class="pauseCount">
+								<span>정지횟수 :</span> 
+								<span>3회</span> 
+								<a href="#">[ 초기화 ]</a>
+								<a href="#">[ + 1 ]</a>
+								<a href="#">[ - 1 ]</a>
+							</p>
+						</div>
+					</div>
+					<div class="title">
+						<h4>호스팅</h4>
+					</div>
+					<div class="borderBox">
+						<div style="height: 28px;">
+							<span>갯수 : 5개 <a href="#">&lt;&lt; 호스팅 바로가기 &gt;&gt;</a></span>
+						</div>
+					</div>
+				</div>
+				<%-- 회원의 여행에 관한 부분 --%>
+				<div class="col">
+					<div class="title">
+						<h4>여행</h4>
+					</div>
+					<div class="borderBox">
+						<div>
+							다녀온 여행지 (5개)
+						</div>
+						<div>
+							<select name="" size="6" style="width: 100%; height: 100px;">
+								<option>호스팅 이름이 들어가는 칸입니다.(호스팅번호) / 2011.01.01~2011.01.02</option>
+							</select>
+						</div>
+						<div>
+							<p style="text-align: right;">총여행 경비 : ￦ 1,500,000,000</p>
+						</div>
+					</div>
+					
+					<div class="title">
+						<h4>관리자 메모</h4>
+					</div>
+					<div class="borderBox">
+						<div>
+							<textarea rows="" cols="" style="resize:none; width: 100%; height: 170px;"></textarea>
+						</div>
+						<div>
+							<select id="selectPause" class="custom-select mr-sm-2">
+								<option>1일 정지</option>
+								<option>7일 정지</option>
+								<option>10일 정지</option>
+								<option>30일 정지</option>
+								<option>영구 정지</option>
+							</select>
+							<button type="button" class="btn btn-primary">정지</button>
+							<button type="button" class="btn btn-primary" style="float:right;">정지 취소</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
