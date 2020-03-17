@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Panagea - Premium site template for travel agencies, hotels and restaurant listing.">
     <meta name="author" content="Ansonika">
-    <title>Panagea | Premium site template for travel agencies, hotels and restaurant listing.</title>
+    <title>YOLOWA | 감사합니다. 결제진행페이지입니다.</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="/final_view/resource/img/favicon.ico" type="image/x-icon">

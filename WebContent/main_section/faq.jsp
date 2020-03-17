@@ -12,8 +12,8 @@
     <title>Panagea | Premium site template for travel agencies, hotels and restaurant listing.</title>
 
     <!-- Favicons-->
-    <link rel="shortcut icon" href="/final_view/resource/img/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" type="image/x-icon" href="/final_view/resource/img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" href="${pageContext.request.contextPath }/resource/img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="${pageContext.request.contextPath }/resource/img/apple-touch-icon-57x57-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="/final_view/resource/img/apple-touch-icon-72x72-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="/final_view/resource/img/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="/final_view/resource/img/apple-touch-icon-144x144-precomposed.png">
@@ -628,9 +628,9 @@
 	<div id="toTop"></div><!-- Back to top button -->
 	
 	<!-- COMMON SCRIPTS -->
-    <script src="/final_view/resource/js/common_scripts.js"></script>
-    <script src="/final_view/resource/js/main.js"></script>
-	<script src="/final_view/resource/assets/validate.js"></script>
+    <script src="${pageContext.request.contextPath }/resource/js/common_scripts.js"></script>
+    <script src="${pageContext.request.contextPath }/resource/js/main.js"></script>
+	<script src="${pageContext.request.contextPath }/resource/assets/validate.js"></script>
 	
 </body>
 </html>
